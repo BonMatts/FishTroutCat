@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  amount: 
+  unit: MyString
+  commodity_id: 
+  when_id: 
+  location_id: 
+
+two:
+  amount: 
+  unit: MyString
+  commodity_id: 
+  when_id: 
+  location_id: 
