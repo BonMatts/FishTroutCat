@@ -18,7 +18,7 @@
         loc = Location.create(description: line[3], code: line[2])
       end
       unless t = When.where(year: line[6]).find_by(time_period: line[7])
-        t= When.create(year: line[6], time_period: line[7])
+        t = When.create(year: line[6], time_period: line[7])
       end
       unless comm = Commodity.find_by(description: line[1])
         comm = Commodity.create(description: line[1])
